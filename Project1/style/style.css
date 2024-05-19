@@ -1,0 +1,37 @@
+.nav_div{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation_bar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    width: 100vw;
+    align-items: center;
+}
+i{
+    color: white;
+}
+body{
+    margin: 0;
+}
+.nav_anc{
+    color:white;
+    text-decoration: none;
+}
+.more{
+    color: white;
+}
+.menu-items:hover{
+    background-color:grey;
+    padding: 1vh 1vw;
+}
+.more-hid{
+    display: none;
+}
+.menu-items:hover .more-hid{
+    display:flex;
+}
